@@ -58,6 +58,7 @@ main {
 .slider-section {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .slider1, .slider2 {
@@ -68,15 +69,14 @@ main {
 	-webkit-overflow-scrolling: touch;
 	margin-bottom: 15px;
 	scroll-padding: 10px;
-	max-width: 250px;
+	max-width: 350px;
 }
 
 .slider-section img {
-	height: auto;
 	object-fit: cover;
-
 	flex-shrink: 0;
 	width: 100%;
+	
 }
 
 .bgPopup {
