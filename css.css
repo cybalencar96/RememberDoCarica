@@ -137,7 +137,7 @@ main {
 
 
   #neve {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -147,11 +147,11 @@ main {
   }
   
   .flake {
-	position: absolute;
+	position: fixed;
 	font-size: 2em;
 	color: #fff;
 	opacity: 0;
-	animation: snowfall 5s linear infinite;
+	animation: snowfall 7s linear infinite;
 	transform: translateY(-100%);
   }
 
