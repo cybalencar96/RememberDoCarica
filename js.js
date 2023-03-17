@@ -33,6 +33,8 @@ const closeButton = popup.querySelector('.close-button');
 closeButton.addEventListener('click', () => {
   popup.style.opacity = 0;
   bgPopup.style.opacity = 0;
+  popup.style.display = 'none';
+  bgPopup.style.display = 'none';
   video.play()
 });
 
