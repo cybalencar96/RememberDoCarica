@@ -20,6 +20,17 @@ var imagens = [
 	"cub12",
 	"cub13",
 	"cub14",
+	"cub15",
+	"cub16",
+	"cub17",
+	"cub18",
+	"cub19",
+	"cub20",
+	"cub21",
+	"cub22",
+	"cub23",
+	"cub24",
+	"cub25",
 ];
 
 var divSlider1 = document.querySelector(".slider1");
